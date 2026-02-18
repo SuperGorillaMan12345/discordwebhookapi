@@ -1,17 +1,9 @@
-# Browser Fingerprint Demo
+# Discord Webhook API
 
-このプロジェクトは  
-**「Webサイトにアクセスしただけで、どんな情報が取得可能か」**  
-を可視化する教育用デモです。
+POST /api/notify
 
-## 取得する情報
-- ブラウザ / OS
-- 画面サイズ
-- 言語 / タイムゾーン
-- IPアドレス（外部API使用）
-- Canvas / WebGL 情報
-
-## 注意
-- 個人情報は取得しません
-- データは保存しません
-- 不正目的での利用禁止
+```json
+{
+  "message": "Hello Discord",
+  "source": "my-site"
+}
